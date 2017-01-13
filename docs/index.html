@@ -12,7 +12,7 @@ SBG
   {% for member in site.data %}
       {% if member[1].group =="SBG" %}
   <li>
-    <img src="https://github.com/{{ member[1].github}}.png?size=50">
+    <img src="https://github.com/{{ member[1].github}}.png?size=50" width=50>
     <a href="https://github.com/{{ member[1].github }}">
       {{ member[1].name }}
     </a>
@@ -26,7 +26,7 @@ MSP
   {% for member in site.data %}
       {% if member[1].group =="MSP" %}
   <li>
-    <img src="https://github.com/{{ member[1].github}}.png?size=50" height=50>
+    <img src="https://github.com/{{ member[1].github}}.png?size=50" width=50>
     <a href="https://github.com/{{ member[1].github }}">
       {{ member[1].name }}
     </a>
