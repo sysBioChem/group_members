@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Members of the SBG and MSP groups</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+SBG
+<ul>
+  {% for member in site.data %}
+      {% if member[1].group =="SBG" %}
+  <li>
+    <img src="https://github.com/{{ member[1].github}}.png?size=50">
+    <a href="https://github.com/{{ member[1].github }}">
+      {{ member[1].name }}
+    </a>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+MSP
+<ul>
+  {% for member in site.data %}
+      {% if member[1].group =="MSP" %}
+  <li>
+    <img src="https://github.com/{{ member[1].github}}.png?size=50">
+    <a href="https://github.com/{{ member[1].github }}">
+      {{ member[1].name }}
+    </a>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+
+</div>
