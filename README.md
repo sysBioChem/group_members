@@ -39,8 +39,7 @@ Create a PR to `develop`
 
 1. Navigate to the original repository you created your fork from.
 
-2. To the right of the Branch menu, click **New pull request**.
-
+2. To the right of the Branch menu, click **New pull request**.<br>
 ![Pull Request button](https://help.github.com/assets/images/help/pull_requests/pull-request-start-review-button.png)
 
 3. On the Compare page, click **compare across forks**.
