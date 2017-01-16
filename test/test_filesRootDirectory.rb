@@ -8,6 +8,8 @@ class TestDirectoryContents < Test::Unit::TestCase
      ".gitignore",
      ".travis.yml",
      ".yamllint",
+     "Gemfile",
+     "Gemfile.lock",
      "README.md",
      "docs",
      "test"]
