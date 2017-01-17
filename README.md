@@ -1,4 +1,5 @@
-# Group members [![Build Status](https://travis-ci.org/uni-lu/group_members.svg?branch=master)](https://travis-ci.org/uni-lu/group_members)
+# SBG & MSP `git` Training: Practice Session
+[![Build Status](https://travis-ci.org/uni-lu/group_members.svg?branch=master)](https://travis-ci.org/uni-lu/group_members)
 
 ## Goal
 Create a fork, a new branch, and submit a PR.
@@ -25,13 +26,13 @@ Create a fork, a new branch, and submit a PR.
     ---
     ```
     Example:
-```json
----
-github: syarra
-name: Sylvain Arreckx
-group: SBG
----
-```
+    ```json
+    ---
+    github: syarra
+    name: Sylvain Arreckx
+    group: SBG
+    ---
+    ```
 
 5. Save and quit.
 
