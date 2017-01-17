@@ -12,11 +12,13 @@ $ git clone https://github.com/YOURGITHUBLOGIN/group_members.git fork_group_memb
 ```
 <ol start="3"><li>
 Create a new branch with your name (you must be in your newly created `fork_group_members/` directory)
+</li></ol>
 ```sh
 $ git checkout -b your_login
 ```
-</li><li>
+<ol start="4"><li>
 Add a file `login.json` in the `docs/_data` folder. To do so open your favorite text editor and add
+</li></ol>
 ```json
 ---
 github: your_github_username
@@ -32,16 +34,17 @@ name: Sylvain Arreckx
 group: SBG
 ---
 ```
-</li><li>
+<ol start="5"><li>
 Save and quit.
 </li><li>
 `Add` and `commit` the file, then `push` the file to the repository
+</li></ol>
 ```sh
 $ git add docs/_data/login.jspn
 $ git commit -m "add my information"
 $ git push
 ```
-</li><li>
+<ol start="7"><li>
 Then, create a PR to the `develop` branch.
 </li><li>
 Wait until all tests passed.
