@@ -13,7 +13,8 @@ class TestDirectoryContents < Test::Unit::TestCase
      "Gemfile.lock",
      "README.md",
      "docs",
-     "test"]
+     "test",
+     "vendor",]
     correct_files_sorted = correct_files.sort
     actual_files = []
     puts correct_files_sorted
