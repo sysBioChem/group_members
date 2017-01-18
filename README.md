@@ -7,11 +7,14 @@ Create a fork, a new branch, and submit a PR.
 ## Steps
 
 1. Fork the `group_members` repo
+
 2. Clone your fork on your computer
     ```sh
     $ git clone https://github.com/YOURGITHUBLOGIN/group_members.git fork_group_members
     ```
+
 3. Checkout the `develop` branch.
+
 3. Create a new branch with your name (you must be in your newly created `fork_group_members/` directory)
     ```sh
     $ git checkout -b practice_your_github_login
