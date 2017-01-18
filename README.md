@@ -17,7 +17,7 @@ Create a fork, a new branch, and submit a PR.
     $ git checkout -b your_github_login
     ```
 
-4. Create a `your_login.json` file in the `docs/_data` folder. To do so open your favorite text editor and copy the following code snippet
+4. Create a `your_github_login.json` file in the `docs/_data` folder. To do so open your favorite text editor and copy the following code snippet
     ```json
     ---
     github: your_github_username
