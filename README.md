@@ -45,4 +45,4 @@ Create a fork, a new branch, and submit a PR.
 9. Assign one `syarra` or `laurentheirendt` to review and merge your PR.
    If everything went well, your PR will be reviewed by one of the administrators and merged.
 
-10. See your avatar and name at https://uni-lu.github.io/group_members/
+10. See your avatar and name at https://uni-lu.github.io/group_members/ (the page might take a few minutes to update)
